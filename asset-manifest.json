@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/geek_pc/static/css/main.354d6ce7.css",
-    "main.js": "/geek_pc/static/js/main.a6b99cba.js",
+    "main.js": "/geek_pc/static/js/main.684ab478.js",
     "static/css/870.1e22e7c9.chunk.css": "/geek_pc/static/css/870.1e22e7c9.chunk.css",
-    "static/js/870.aa70bb8b.chunk.js": "/geek_pc/static/js/870.aa70bb8b.chunk.js",
+    "static/js/870.078c5280.chunk.js": "/geek_pc/static/js/870.078c5280.chunk.js",
     "static/css/802.66c9af94.chunk.css": "/geek_pc/static/css/802.66c9af94.chunk.css",
     "static/js/802.63e6c9e1.chunk.js": "/geek_pc/static/js/802.63e6c9e1.chunk.js",
     "static/css/796.1c7c2d4d.chunk.css": "/geek_pc/static/css/796.1c7c2d4d.chunk.css",
@@ -27,9 +27,9 @@
     "static/media/logo.png": "/geek_pc/static/media/logo.536c5d801c4010c7ed6d.png",
     "index.html": "/geek_pc/index.html",
     "main.354d6ce7.css.map": "/geek_pc/static/css/main.354d6ce7.css.map",
-    "main.a6b99cba.js.map": "/geek_pc/static/js/main.a6b99cba.js.map",
+    "main.684ab478.js.map": "/geek_pc/static/js/main.684ab478.js.map",
     "870.1e22e7c9.chunk.css.map": "/geek_pc/static/css/870.1e22e7c9.chunk.css.map",
-    "870.aa70bb8b.chunk.js.map": "/geek_pc/static/js/870.aa70bb8b.chunk.js.map",
+    "870.078c5280.chunk.js.map": "/geek_pc/static/js/870.078c5280.chunk.js.map",
     "802.66c9af94.chunk.css.map": "/geek_pc/static/css/802.66c9af94.chunk.css.map",
     "802.63e6c9e1.chunk.js.map": "/geek_pc/static/js/802.63e6c9e1.chunk.js.map",
     "796.1c7c2d4d.chunk.css.map": "/geek_pc/static/css/796.1c7c2d4d.chunk.css.map",
@@ -52,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.354d6ce7.css",
-    "static/js/main.a6b99cba.js"
+    "static/js/main.684ab478.js"
   ]
 }
