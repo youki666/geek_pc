@@ -37,17 +37,18 @@ function App() {
           <Routes>
             <Route
               path="/"
+              exact
               element={
                 <AuthRoute>
                   <Layout />
                 </AuthRoute>
               }
             >
-              <Route index element={<Home />}></Route>
-              <Route path="article" element={<Article />}></Route>
-              <Route path="publish" element={<Publish />}></Route>
+              <Route index exact element={<Home />}></Route>
+              <Route path="article" exact element={<Article />}></Route>
+              <Route path="publish" exact element={<Publish />}></Route>
             </Route>
-            <Route path="/login" element={<Login />} />
+            <Route path="/login" exact element={<Login />} />
           </Routes>
         </div>
       </Suspense>
