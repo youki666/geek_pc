@@ -33,5 +33,5 @@ jobs:
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
-          GITHUB_TOKEN: ${{ secrets.cicdToken }}
+          GITHUB_TOKEN: ${{ secrets.CICDTOKEN }}
           GITHUB_REPOSITORY: geek_pc
