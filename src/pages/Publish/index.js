@@ -11,7 +11,7 @@ import {
   message,
 } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import "./index.scss";
 
 import { http } from "@/utils";
@@ -19,13 +19,12 @@ import { http } from "@/utils";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 
-import { useStore } from "@/store";
 import { useState, useEffect, useRef } from "react";
 
 const { Option } = Select;
 
 const Publish = () => {
-  const { channelStore } = useStore();
+  //const { channelStore } = useStore();
   const cacheImgList = useRef([]);
   // 获取频道列表
   const [channels, setChannels] = useState([]);

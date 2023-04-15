@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { history } from "@/utils/history";
 import {
@@ -102,7 +102,7 @@ const Article = () => {
       channelStore.loadChannelList();
     }
     fetchArticleList();
-  }, [params]);
+  }, [params, channelStore]);
   const columns = [
     {
       title: "封面",
@@ -123,7 +123,7 @@ const Article = () => {
       title: "状态",
       dataIndex: "status",
       render: (data) => (
-        <Tag color={data == 3 ? "green" : "red"}>审核通过{}</Tag>
+        <Tag color={data === 3 ? "green" : "red"}>审核通过{}</Tag>
       ),
     },
     {
