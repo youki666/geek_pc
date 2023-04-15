@@ -11,7 +11,7 @@ function Login() {
   const { loginStore } = useStore();
   // 点击登录按钮时触发 参数values即是表单输入数据
   async function onFinish(values) {
-    console.log(values);
+    //console.log(values);
     if (!values.remember) {
       message.warning("请勾选用户协议");
       return;
