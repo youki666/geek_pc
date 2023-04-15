@@ -36,19 +36,18 @@ function App() {
         <div className="App">
           <Routes>
             <Route
-              path="/"
-              exact
+              path="/geek_pc"
               element={
                 <AuthRoute>
                   <Layout />
                 </AuthRoute>
               }
             >
-              <Route index exact element={<Home />}></Route>
-              <Route path="article" exact element={<Article />}></Route>
-              <Route path="publish" exact element={<Publish />}></Route>
+              <Route index element={<Home />}></Route>
+              <Route path="article" element={<Article />}></Route>
+              <Route path="publish" element={<Publish />}></Route>
             </Route>
-            <Route path="/login" exact element={<Login />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </div>
       </Suspense>
