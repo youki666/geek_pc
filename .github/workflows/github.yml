@@ -1,6 +1,6 @@
 name: GitHub Actions Demo # ci文件的名字
-on: [push] # 触发CI的条件
-jobs:  # CI/CD通过执行一个个的Job来完成每个阶段的工作，这里配置每个Jobs
+on: [push] # 触发CI的条件 CI/CD通过执行一个个的Job来完成每个阶段的工作，这里配置每个Jobs
+jobs:  
   Check: # Job的名称
     runs-on: ubuntu-latest # Runner，github托管的虚拟机环境，用来执行下面的Job命令
     steps: # 执行步骤
