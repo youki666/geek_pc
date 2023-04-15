@@ -1,5 +1,5 @@
 # 旧版部署 yml - 使用 github 自己的 runner
-name: Build & deploy react-demo-with-github-actions
+name: cicdTest
 
 on:
   push:

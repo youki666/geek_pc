@@ -31,7 +31,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://youki666.github.io/",
+  "homepage": "https://youki666.github.io/geek_pc",
   "eslintConfig": {
     "extends": [
       "react-app",
